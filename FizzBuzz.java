@@ -14,7 +14,7 @@ public class FizzBuzz
     for (int i = 1; i <= num; i++) 
     {
       isFB = false;
-      if ((i % 5) == 0) {
+      if ((i % 3) == 0) {
         salida += "fizz";
         isFB=true;
       }
