@@ -9,16 +9,24 @@ public class FizzBuzz
  
   private static void fizzBuzz(int num) 
   {
+    String salida = "";
+    boolean isFB;
     for (int i = 1; i <= num; i++) 
     {
-      if (((i % 5) == 0) && ((i % 7) == 0)) 
-        System.out.println("fizzbuzz");
-      else if ((i % 5) == 0) 
-        System.out.println("fizz");
-      else if ((i % 7) == 0) 
-        System.out.println("buzz");
-      else
-        System.out.println(i); 
+      isFB = false;
+      if ((i % 5) == 0) {
+        salida += "fizz";
+        isFB=true;
+      }
+      if ((i % 7) == 0) {
+        salida += "buzz";
+        isFB=true;
+      } 
+      if(isFB){
+        System.out.println(salida);
+      } else {
+        System.out.println(i);
+      }
     }
   }
  
