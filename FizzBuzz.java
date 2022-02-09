@@ -21,6 +21,10 @@ public class FizzBuzz
       if ((i % 5) == 0) {
         salida += "buzz";
         isFB=true;
+      }
+      if ((i % 7) == 0) {
+        salida += "cuzz";
+        isFB=true;
       } 
       if(isFB){
         System.out.println(salida);
