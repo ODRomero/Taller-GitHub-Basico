@@ -26,7 +26,7 @@ public class FizzBuzz
         salida += "cuzz";
         isFB=true;
       } 
-      if ((i % 13) == 0) {
+      if ((i % 19) == 0) {
         salida += "lizz";
         isFB=true;
       } 
