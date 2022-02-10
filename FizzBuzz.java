@@ -27,7 +27,11 @@ public class FizzBuzz
         isFB=true;
       } 
       if ((i % 23) == 0) {
-        salida += "Tuzz";
+        salida += "tuzz";
+        isFB=true;
+      }
+      if ((i % 27) == 0) {
+        salida += "luzz";
         isFB=true;
       } 
       if(isFB){
