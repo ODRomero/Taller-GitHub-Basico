@@ -18,20 +18,8 @@ public class FizzBuzz
         salida += "fizz";
         isFB=true;
       }
-      if ((i % 7) == 0) {
-        salida += "cuzz";
-        isFB=true;
-      } 
-      if ((i % 18) == 0) {
-        salida += "lizz";
-        isFB=true;
-      } 
-      if ((i % 23) == 0) {
-        salida += "tuzz";
-        isFB=true;
-      }
-      if ((i % 27) == 0) {
-        salida += "luzz";
+      if ((i % 5) == 0) {
+        salida += "buzz";
         isFB=true;
       } 
       if(isFB){
