@@ -29,6 +29,7 @@ public class FizzBuzz
       if ((i % 19) == 0) {
         salida += "lizz";
         isFB=true;
+
       } 
       if(isFB){
         System.out.println(salida);
